@@ -33,4 +33,22 @@
         android:layout_centerHorizontal="true"
         android:textSize="24sp"
         android:textStyle="normal|bold" />
+
+    <RadioButton
+        android:text="Líder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton"
+        android:layout_marginTop="33dp"
+        android:id="@+id/radioButton2" />
+
+    <Button
+        android:text="Enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
+        android:textStyle="normal|bold" />
 </RelativeLayout>
